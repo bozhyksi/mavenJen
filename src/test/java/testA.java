@@ -1,8 +1,10 @@
 import org.testng.annotations.Test;
 
+import static com.codeborne.selenide.Selenide.open;
+
 public class testA {
     @Test
     public void ttt(){
-        System.out.println("Hello Maven");
+        open("https://www.google.com/");
     }
 }
