@@ -10,6 +10,6 @@ public class testA {
     @Test
     public void ttt(){
         open("https://www.google.com/");
-        $(By.name("q")).should(Condition.exist);
+        $(By.name("q")).shouldNot(Condition.exist);
     }
 }
